@@ -15,11 +15,12 @@ export default function Home() {
           I remade Flappybird in Godot! Check it out here (click the image):
         </p>
 
-        <a href="" target="_blank" className="mt-6">
+        <a href="https://flappybird.steed.studio" target="_blank" className="mt-6">
           <Image
-            className="rounded-full"
-            src="/images/flappy_icon.jpeg"
-            alt="Flappy Bird"
+            className="rounded-full hover:shadow-[0_0_20px_5px_rgba(250,204,21,0.7)]"
+            src={"/images/flappy_icon_animation.gif"}
+            alt="Flappy Bird Animation"
+            unoptimized
             width={250}
             height={250}
           />
