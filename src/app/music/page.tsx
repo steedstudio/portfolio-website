@@ -1,4 +1,3 @@
-import MusicTab from "@/components/MusicTab";
 import MediaSection from "@/components/MediaSection";
 
 export default function Music () {
