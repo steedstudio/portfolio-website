@@ -21,7 +21,7 @@ export default function MediaSection() {
                     source={"/sounds/Intro and Outro Music Mastered.wav"} 
                     title={"The Upside of Gaming Podcast"}
                     description={"Created for a podcast regarding the positive influence of video games."}
-                    link="https://martakos.co.uk/podcasts/"
+                    link="https://martakos.co.uk/podcasts/the-upside-of-gaming/"
                     />
 
                     <SoundMediaCard 
@@ -64,6 +64,31 @@ export default function MediaSection() {
                     <YoutubeMediaCard 
                     source={"https://www.youtube.com/embed/K5XtkiRaU_Y?si=gwL4-ZrvVm7MIHxS"}
                     title={"Hyper Light Drifter"}
+                    />
+
+                    <YoutubeMediaCard 
+                    source={"https://www.youtube.com/embed/P1xGCGSe5vA?si=vbWClrDu3PV_jQCg"}
+                    title={"Tunic"}
+                    />
+
+                    <YoutubeMediaCard 
+                    source={"https://www.youtube.com/embed/5TPyCftqcw0?si=e9CCh5zka6Jj0ber"}
+                    title={"Ape Escape"}
+                    />
+
+                    <YoutubeMediaCard 
+                    source={"https://www.youtube.com/embed/oikhVMvRqKc?si=MhbT_CEdXbV3pqzU"}
+                    title={"Stardew Valley"}
+                    />
+
+                    <YoutubeMediaCard 
+                    source={"https://www.youtube.com/embed/re-Jdwy0t2U?si=smbrBUQGd-ftLDKu"}
+                    title={"Stray"}
+                    />
+
+                    <YoutubeMediaCard 
+                    source={"https://www.youtube.com/embed/pZaN7iQCLZo?si=CfWFCgaRN43N0DmA"}
+                    title={"OneShot"}
                     />
                 </>
             )}

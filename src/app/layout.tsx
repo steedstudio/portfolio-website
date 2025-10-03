@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Mulish } from "next/font/google";
 import "./globals.css";
 import {inter} from './ui/fonts'
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+
+const mulish = Mulish({
+  subsets: ["latin"]
+})
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,9 +30,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={mulish.className}>
       <body
-        className={`${inter.className} antialiased`}
+        className={`antialiased`}
       >
         <Header />
         {children}
