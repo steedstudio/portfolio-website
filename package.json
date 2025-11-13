@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal portfolio built with Next.js, TypeScript, and Tailwind CSS",
   "author": "Steed",
   "private": true,

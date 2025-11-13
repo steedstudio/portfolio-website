@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
       <main>
-        <p className="max-w-3xl text-xl"> Hi, I&apos;m Steed. Welcome to my world. Here, you&apos;ll find my projects, inspirations, and experiments in music, games, and technology. I&apos;m always learning, creating, and problem-solving, and this site is where I share that process. If our interests overlap, I hope we can exchange ideas, inspire each other, and maybe even collaborate along the way.</p>
+        <p className="max-w-3xl text-xl"> Hi, I&apos;m Steed. Here, you&apos;ll find my projects, inspirations, and experiments in music, games, and technology. I&apos;m always learning, creating, and problem-solving, and this site is where I share that process. If our interests overlap, I hope we can exchange ideas, inspire each other, and maybe even collaborate along the way.</p>
 
         <h2 className="text-xl mt-6 font-bold">Latest Project: Flappybird Remake</h2>
         <p className="max-w-3xl text-xl">
